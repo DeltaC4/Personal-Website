@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  background-color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+footer {
+  font-size: 1vw;
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: rgb(59, 59, 59);
+  text-align: center;
+  padding: 0.5% 0% 0.5% 0%;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(59, 59, 59);
+}
