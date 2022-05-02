@@ -10,10 +10,11 @@ import { Page1Component } from './page1/page1.component';
 
 
 const routes: Routes = [
-  { path: '', redirectTo: '/AppComponent', pathMatch: 'full' },
-  { path: 'sait', component: SaitPageComponent },
   { path: 'main', component: Page1Component },
-  // { path: '**', component: AppComponent }
+  { path: 'sait', component: SaitPageComponent },
+  
+  //otherwise redirects to home but need to implement it into PageNotFound
+  { path: '**', redirectTo: 'main' },
 ];
 
 @NgModule({

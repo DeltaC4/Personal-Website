@@ -23,6 +23,6 @@ import { Page1Component } from './page1/page1.component';
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent, SaitPageComponent, Page1Component]
 })
 export class AppModule { }
