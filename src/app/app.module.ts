@@ -8,6 +8,7 @@ import { MainBodyComponent } from './main-body/main-body.component';
 import { FooterComponent } from './footer/footer.component';
 import { SaitPageComponent } from './sait-page/sait-page.component';
 import { Page1Component } from './page1/page1.component';
+import { DevPageComponent } from './dev-page/dev-page.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { Page1Component } from './page1/page1.component';
     MainBodyComponent,
     FooterComponent,
     SaitPageComponent,
-    Page1Component
+    Page1Component,
+    DevPageComponent
   ],
   imports: [
     BrowserModule,

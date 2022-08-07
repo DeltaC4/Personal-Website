@@ -7,11 +7,13 @@ import { MainBodyComponent } from './main-body/main-body.component';
 import { FooterComponent } from './footer/footer.component';
 import { SaitPageComponent } from './sait-page/sait-page.component';
 import { Page1Component } from './page1/page1.component';
+import { DevPageComponent } from './dev-page/dev-page.component';
 
 
 const routes: Routes = [
   { path: 'main', component: Page1Component },
   { path: 'sait', component: SaitPageComponent },
+  { path: 'dev', component: DevPageComponent },
   
   //otherwise redirects to home but need to implement it into PageNotFound
   { path: '**', redirectTo: 'main' },
