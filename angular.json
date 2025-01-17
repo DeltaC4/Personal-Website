@@ -102,5 +102,8 @@
       }
     }
   },
-  "defaultProject": "Personal-Website"
+  "defaultProject": "Personal-Website",
+  "cli": {
+    "analytics": "63fc3a2f-1b18-4638-89e3-1f721655bb71"
+  }
 }
