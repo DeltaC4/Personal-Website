@@ -1,19 +1,17 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { MainBodyComponent } from './main-body/main-body.component';
-import { FooterComponent } from './footer/footer.component';
 import { SaitPageComponent } from './sait-page/sait-page.component';
 import { Page1Component } from './page1/page1.component';
 import { DevPageComponent } from './dev-page/dev-page.component';
+import { Workhub } from './workhub/workhub';
 
 
 const routes: Routes = [
   { path: 'main', component: Page1Component },
   { path: 'sait', component: SaitPageComponent },
   { path: 'dev', component: DevPageComponent },
+  { path: 'work', component: Workhub },
   
   //otherwise redirects to home but need to implement it into PageNotFound
   { path: '**', redirectTo: 'main' },

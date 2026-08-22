@@ -1,0 +1,21 @@
+#title {
+    padding: 2% 0% 3% 0%;
+    font-size: 2vw;
+    text-align: center;
+}
+
+#devText {
+    display: inline-block;
+    vertical-align: middle;
+    height: 200%;
+    text-align: center;
+    font-size: 20px;
+    margin: 0% 0% 0% 0%;
+    padding: 10% 0%;
+}
+
+.container {
+    background-color: rgb(238, 238, 238);
+    border-radius: 20px;
+    padding-bottom: 0%;
+}

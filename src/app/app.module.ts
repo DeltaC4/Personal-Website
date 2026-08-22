@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { SaitPageComponent } from './sait-page/sait-page.component';
 import { Page1Component } from './page1/page1.component';
 import { DevPageComponent } from './dev-page/dev-page.component';
+import { Workhub } from './workhub/workhub';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DevPageComponent } from './dev-page/dev-page.component';
     FooterComponent,
     SaitPageComponent,
     Page1Component,
-    DevPageComponent
+    DevPageComponent,
+    Workhub
   ],
   imports: [
     BrowserModule,
