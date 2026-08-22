@@ -1,6 +1,8 @@
 # PersonalWebsite
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
+This project uses [Angular CLI](https://github.com/angular/angular-cli) version 22.
+
+Use Node.js 24 LTS and npm 11 as specified by `.nvmrc` and `package.json` before installing dependencies.
 
 ## Development server
 

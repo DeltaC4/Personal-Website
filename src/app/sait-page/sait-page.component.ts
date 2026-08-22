@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-sait-page',
+  standalone: false,
   templateUrl: './sait-page.component.html',
   styleUrls: ['./sait-page.component.css']
 })
