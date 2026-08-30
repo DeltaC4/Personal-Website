@@ -12,21 +12,39 @@
 body {
   background-color: white;
   font-family: Georgia, "Times New Roman", Times, serif;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 footer {
-  font-size: 1vw;
+  font-size: clamp(0.75rem, 1vw, 1rem);
   position: sticky;
   left: 0;
   bottom: 0;
   width: 100%;
   color: rgb(59, 59, 59);
   text-align: center;
-  padding: 0.5% 0% 0.5% 0%;
+  padding: 0.5rem 1rem;
+  box-sizing: border-box;
 }
 
 a {
   text-decoration: none;
   color: black;
   color: rgb(59, 59, 59);
+}
+
+@media (max-width: 767.98px) {
+  body {
+    font-size: 16px;
+  }
+
+  app-root {
+    display: block;
+    width: 100%;
+  }
 }

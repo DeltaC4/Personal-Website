@@ -3,19 +3,27 @@
         <a class="nav-item nav-link link-dark" routerLink="main">Clarke</a>
     </div>
 
-    <div id="rightNav">
-        <div class="navItem">
-            <a class="nav-item nav-link link-dark" routerLink="sait">SAIT</a>
+    <div id="rightNav" [class.menu-open]="isMenuOpen">
+        <button class="mobile-menu-toggle" type="button" aria-label="Toggle navigation" (click)="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="navItemsWrap">
+            <div class="navItem">
+                <a class="nav-item nav-link link-dark" routerLink="sait" (click)="closeMenu()">SAIT</a>
+            </div>
+            <div class="navItem">
+                <a class="nav-item nav-link link-dark" routerLink="dev" (click)="closeMenu()">Developer</a>
+            </div>
+            <div class="navItem">
+                <a class="nav-item nav-link link-dark" routerLink="work" (click)="closeMenu()">Workhub</a>
+            </div>
+            <div class="navItem">
+                <a class="nav-item nav-link link-dark" routerLink="photos" (click)="closeMenu()">Photos</a>
+            </div>
         </div>
-        <div class="navItem">
-            <a class="nav-item nav-link link-dark" routerLink="dev">Developer</a>
-        </div>
-        <div class="navItem">
-            <a class="nav-item nav-link link-dark" routerLink="work">Workhub</a>
-        </div>
-        <!-- <div class="navItem">
-            <a class="nav-item nav-link link-dark" routerLink="photos">Photos</a>
-        </div> -->
     </div>
 
 </div>

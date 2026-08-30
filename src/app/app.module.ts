@@ -10,6 +10,7 @@ import { SaitPageComponent } from './sait-page/sait-page.component';
 import { Page1Component } from './page1/page1.component';
 import { DevPageComponent } from './dev-page/dev-page.component';
 import { Workhub } from './workhub/workhub';
+import { PhotosPageComponent } from './photos-page/photos-page.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { Workhub } from './workhub/workhub';
     SaitPageComponent,
     Page1Component,
     DevPageComponent,
-    Workhub
+    Workhub,
+    PhotosPageComponent
   ],
   imports: [
     BrowserModule,

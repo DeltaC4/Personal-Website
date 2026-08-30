@@ -1,0 +1,11 @@
+<div id="title">
+  Photo Gallery
+</div>
+
+<div class="gallery-container">
+  <div class="gallery-grid">
+    <img *ngFor="let image of images" [src]="'../../assets/images/' + image" [alt]="image" class="gallery-image">
+  </div>
+</div>
+
+<router-outlet></router-outlet>
