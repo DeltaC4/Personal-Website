@@ -8,6 +8,7 @@ import { Workhub } from './workhub/workhub';
 
 
 const routes: Routes = [
+  { path: '', redirectTo: 'main', pathMatch: 'full' },
   { path: 'main', component: Page1Component },
   { path: 'sait', component: SaitPageComponent },
   { path: 'dev', component: DevPageComponent },

@@ -12,6 +12,7 @@
 }
 
 #rightNav {
+  display: flex;
   text-align: right;
   width: 600px;
   float: right;
