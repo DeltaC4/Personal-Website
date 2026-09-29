@@ -8,12 +8,13 @@ import { Component } from '@angular/core';
 })
 export class PhotosPageComponent {
   images = [
-    'Pic2.jpg',
-    'Pic3.jpg',
-    'Pic4.jpg',
-    'Pic5.jpg',
-    'Pic7.jpg',
-    'Pic8.jpg',
-    'Pic9.jpg'
+    'Pic2-gallery.jpg',
+    'Pic3-gallery.jpg',
+    'Pic4-gallery.jpg',
+    'Pic5-gallery.jpg',
+    'Pic7-gallery.jpg',
+    'Pic8-gallery.jpg',
+    'Pic9-gallery.jpg',
+    'Pic10-gallery.jpg'
   ];
 }

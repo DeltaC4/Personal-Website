@@ -4,7 +4,9 @@
 
 <div class="gallery-container">
   <div class="gallery-grid">
-    <img *ngFor="let image of images" [src]="'assets/images/' + image" [alt]="image" class="gallery-image">
+    <img *ngFor="let image of images; let first = first" [src]="'assets/images/' + image" [alt]="image"
+      [attr.loading]="first ? 'eager' : 'lazy'" [attr.fetchpriority]="first ? 'high' : null" decoding="async"
+      class="gallery-image">
   </div>
 </div>
 
