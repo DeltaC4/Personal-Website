@@ -3,7 +3,7 @@
         <a class="nav-item nav-link link-dark" routerLink="main">Clarke</a>
     </div>
 
-    <div id="rightNav" [class.menu-open]="isMenuOpen">
+    <div id="rightNav" #menuContainer [class.menu-open]="isMenuOpen">
         <button class="mobile-menu-toggle" type="button" aria-label="Toggle navigation" (click)="toggleMenu()">
             <span></span>
             <span></span>

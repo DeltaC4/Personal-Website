@@ -20,6 +20,11 @@
     padding-bottom: 0%;
 }
 
+#wh_logo {
+    margin: 0 auto;
+    padding: 10% 2% 2% 2%;
+}
+
 @media (max-width: 767.98px) {
     #title {
         padding: 1.25rem 1rem 1.5rem;
