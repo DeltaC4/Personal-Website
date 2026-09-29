@@ -29,6 +29,6 @@ import { PhotosPageComponent } from './photos-page/photos-page.component';
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent, SaitPageComponent, Page1Component]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
