@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --base-href=/Personal-Website/",
+    "postbuild": "node -e \"require('node:fs').copyFileSync('dist/personal-website/index.html', 'dist/personal-website/404.html')\"",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "predeploy": "npm run build",
