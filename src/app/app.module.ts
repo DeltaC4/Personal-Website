@@ -6,10 +6,9 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { MainBodyComponent } from './main-body/main-body.component';
 import { FooterComponent } from './footer/footer.component';
-import { SaitPageComponent } from './sait-page/sait-page.component';
+import { EducationPageComponent } from './education-page/education-page.component';
 import { Page1Component } from './page1/page1.component';
 import { DevPageComponent } from './dev-page/dev-page.component';
-import { Workhub } from './workhub/workhub';
 import { PhotosPageComponent } from './photos-page/photos-page.component';
 
 @NgModule({
@@ -18,10 +17,9 @@ import { PhotosPageComponent } from './photos-page/photos-page.component';
     HeaderComponent,
     MainBodyComponent,
     FooterComponent,
-    SaitPageComponent,
+    EducationPageComponent,
     Page1Component,
     DevPageComponent,
-    Workhub,
     PhotosPageComponent
   ],
   imports: [

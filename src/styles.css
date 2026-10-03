@@ -38,6 +38,11 @@ a {
   color: rgb(59, 59, 59);
 }
 
+.page-title {
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+}
+
 @media (max-width: 767.98px) {
   body {
     font-size: 16px;
